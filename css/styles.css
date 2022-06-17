@@ -4,60 +4,144 @@
     src: url('../fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;
 }
+@font-face{
+    font-family:'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face{
+    font-family:'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 400;
+}
 @font-face {
     font-family:'Raleway' ;
     src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700
 }
 :root {
     --color-accent: #2196f3;
+    --font-family:'Roboto'
 }
 .body {
     font-family:'Roboto' ;
-    font-style: ;
+    font-style:normal;
     color: hsl(0, 0%, 13%);
     background-color: #ffffff;
+    text-decoration: none;
 }
 .list {
   list-style: none;
 }
-/* навигация */
+/* header */
+
 .logo {
     font-family:'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
     color: #212121;
+    text-decoration: none;
 }
-
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 .logoweb {
   color: #2196f3;
   font-family:'Raleway';
+  text-decoration: none;
 }
-p
 .link-black {
   background-color: var(--color-accent);
 }
 .link-blue {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #2196f3;
+  text-decoration: none;
 }
 .link-gray {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 /* навигация по странице */
-.submenu-item {
-}
-/* подвал */
+
 .link-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   color: #212121;
+  background-color: #2196f3;
+  box-shadow: box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-decoration: none;
 }
 .link-item:hover,
 .link-item:focus,
 .link-item:active {
   color: #ffffff;
 }
+/* подвал */
+.logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.logoweb {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
 
+}
+.benefits {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  text-decoration: none;
+}
 .link1 {
-  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
 }
 .footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: #ffffff;
   background-color: #2f303a;
+  text-decoration: none;
 }
 
