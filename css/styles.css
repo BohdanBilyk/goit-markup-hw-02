@@ -1,24 +1,63 @@
-.page {
-    color:hsl(0, 0%, 13%) ;
-    background-color:#E5E5E5; 
+/* FOnts */
+@font-face{
+    font-family:'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family:'Raleway' ;
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+}
+:root {
+    --color-accent: #2196f3;
+}
+.body {
+    font-family:'Roboto' ;
+    font-style: ;
+    color: hsl(0, 0%, 13%);
+    background-color: #ffffff;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
-.logo {color:#2196F3
-
-}
-.logo-black { color: #212121
-
-}
-.site-nav {
-    color: #2196F3
+/* навигация */
+.logo {
+    font-family:'Raleway';
+    color: #212121;
 }
 
+.logoweb {
+  color: #2196f3;
+  font-family:'Raleway';
+}
+p
+.link-black {
+  background-color: var(--color-accent);
+}
+.link-blue {
+  color: #2196f3;
+}
+.link-gray {
+  color: #757575;
+}
+/* навигация по странице */
+.submenu-item {
+}
+/* подвал */
+.link-item {
+  color: #212121;
+}
+.link-item:hover,
+.link-item:focus,
+.link-item:active {
+  color: #ffffff;
+}
 
+.link1 {
+  color: #757575;
+}
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
 
-/* цвет основного текста h1  #FFFFFF 
-цвет веб студио та кнопок #2196F3;
-цвет заголовков #212121;
-цвет текста(описание) #757575;
-цвет команді фон #E5E5E5; */
