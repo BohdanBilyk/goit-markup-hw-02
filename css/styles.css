@@ -1,34 +1,14 @@
-/* FOnts */
-@font-face{
-    font-family:'Roboto';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: 700;
-}
-@font-face{
-    font-family:'Roboto';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: 500;
-}
-@font-face{
-    font-family:'Roboto';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: 400;
-}
-@font-face {
-    font-family:'Raleway' ;
-    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
-    font-weight: 700
-}
+
 :root {
     --color-accent: #2196f3;
-    --font-family:'Roboto'
+    --color-text: #212121;
+    --color-description: #757575;
+    --color: #FFFFFF;
+    --font-family:'Roboto';
 }
 .body {
     font-family:'Roboto' ;
-    font-style:normal;
-    color: hsl(0, 0%, 13%);
-    background-color: #ffffff;
-    text-decoration: none;
+    background-color: var(--color-text)
 }
 .list {
   list-style: none;
@@ -38,8 +18,7 @@
 .logo {
     font-family:'Raleway';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    font-size: 1.2px;
     color: #212121;
     text-decoration: none;
 }
@@ -47,8 +26,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.14px;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
