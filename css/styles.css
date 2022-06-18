@@ -1,125 +1,128 @@
 
 :root {
     --color-accent: #2196f3;
-    --color-text: #212121;
-    --color-description: #757575;
-    --color: #FFFFFF;
-    --font-family:'Roboto';
+  --color-text: #212121;
+  --color-contact: #757575;
+  --color-wite: #FFFFFF;
+  --color-contrast: #2F303A;
+  --color-button:#F5F4FA;
+  --font-family:'Roboto';
 }
 .body {
-    font-family:'Roboto' ;
-    background-color: var(--color-text)
+  font-family: 'Roboto', 'Releway', sans-serif;
+background-color:var(--color-wite);
+color:var(--color-text);
 }
 .list {
   list-style: none;
 }
 /* header */
-
-.logo {
-    font-family:'Raleway';
-    font-weight: 700;
-    font-size: 1.2px;
-    color: #212121;
-    text-decoration: none;
+.nav {
+  color:#212121;
+font-family: 'Roboto';
+font-weight: 500;
+line-height: 1.2;
 }
-.link {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.14px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.logo {
+  color:var(--color-text);
+font-family:'Raleway';
+font-weight: 700;
+font-size: 1.2;
 }
 .logoweb {
-  color: #2196f3;
-  font-family:'Raleway';
-  text-decoration: none;
-}
-.link-black {
-  background-color: var(--color-accent);
-}
-.link-blue {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  text-decoration: none;
+  color:var(--color-accent);
+font-family:'Raleway';
+font-weight: 700;
+font-size: 1.2;
 }
 .link-gray {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+font-weight: 400;
+font-size: 1.15;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration: none;
+}
+/* hiro */
+.hiro {
+  color: var(--color-wite);
+font-family: 'Roboto';
+background-color:var(--color-contrast);
+}
+.button {
+  color: var(--color-wite);
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 1.9;
+background-color: var(--color-accent);
+}
+.advantage {
+  color: var(--color-text);
+font-size:1.15
+}
+.text {
   color: #757575;
-  text-decoration: none;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 1.7;
 }
-/* навигация по странице */
-
-.link-item {
+.name {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  color: #212121;
-  background-color: #2196f3;
-  box-shadow: box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  text-decoration: none;
+font-weight: 500;
+color: var(--color-text);
+font-size: 1.2;
+letter-spacing: 0.03em;
 }
-.link-item:hover,
-.link-item:focus,
-.link-item:active {
-  color: #ffffff;
-}
-/* подвал */
+/* footer */
 .logo-footer {
   font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  color: #ffffff;
-  text-decoration: none;
+font-weight: 700;
+font-size: 1.2;
+color: #ffffff;
 }
 .logoweb {
   font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  text-decoration: none;
+font-weight: 700;
+/* line-height: 1.2; */
+font-size: 1.2;
+}
 
+.footer {
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 1.7;
+color: #ffffff;
+background-color: #2f303a;
+text-decoration: none;
+}
+/* portfolio */
+.portfolio-buttons {
+  font-family: 'Roboto';
+background-color: var(--color-button
+  );
+cursor: pointer;
+border: none;
+border-radius: 4px;
+font-weight: 500;
+font-size: 1.6;
+letter-spacing: 0.03em;
+color: var(--color-text);
+}
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+  background-color: var(--color-accent);
+  color: var(--color-wite);
 }
 .benefits {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  text-decoration: none;
+font-weight: 700;
+font-size: 2;
+text-decoration: none;
 }
 .link1 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  text-decoration: none;
+  color: var(--color-contact);
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 7.5;
+text-decoration: none;
 }
-.footer {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
-  background-color: #2f303a;
-  text-decoration: none;
-}
-

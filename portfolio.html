@@ -23,23 +23,26 @@ Weight
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework№2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!--шапка-->
-    <header>
-      <nav class="menu">
+    <header class="nav">
+      <nav>
       <a class="logo" href="./index.html"><span class="logoweb">Web</span>Studio</a>
          <ul class="menu">
-          <li class="menu-item">
+          <li>
             <a href="#"  class="link" >Студия</a>
           </li>
-          <li class="menu-item">
-            <a href="#" class="link-blue" >Портфолио</a>
+          <li>
+            <a href="#" class="link" >Портфолио</a>
           </li>
-          <li class="menu-item">
+          <li>
           <a href="#" class="link" >Контакты</a>
-          </li class="menu-item">
+          </li>
           </ul>
        </nav>
        <ul>
@@ -53,37 +56,40 @@ Weight
     </header>
 
       <main>
-
         <!--меню сайту силки-->
       <section> 
-          <h2>навигация по страничке</h2> <!-- скриється за допомогою стилів -->
-        <ul class="submenu">
-          <li class="submenu-item">
-            <a href="#" class="link-item">Все</a>
-          </li>
-          <li>
-            <a href="#" class="link-item">Веб-сайты</a>
-          </li>
-          <li>
-            <a href="#" class="link-item">Приложения</a>
-          </li>
-          <li>
-            <a href="#" class="link-item">Дизайн</a>
-          </li>
-          <li>
-            <a href="#" class="link-item">Маркетинг</a>
-          </li>
-        </ul>
+          <!-- <h2>навигация по страничке</h2> скриється за допомогою стилів -->
+          <ul>
+            <li>
+              <button type="button" class="portfolio-buttons">Все</button>
+            </li>
+            <li>
+              
+              <button type="button" class="portfolio-buttons">Веб-сайты</button>
+            </li>
+            <li>
+              
+              <button type="button" class="portfolio-buttons">Приложения</button>
+            </li>
+            <li>
+              
+              <button type="button" class="portfolio-buttons">Дизайн</button>
+            </li>
+            <li>
+              
+              <button type="button" class="portfolio-buttons">Маркетинг</button>
+            </li>
+          </ul>
       </section>
           <!--преимущества-->
       <section class="benefits">
-        <h2>примеры работ</h2> <!-- скриється за допомогою стилів -->
+        <!-- <h2>примеры работ</h2> скриється за допомогою стилів -->
         <ul>
           <li>
         <img
           width="370"
           height="294"
-          src="./images/img.jpg"
+          src="./images/img20.jpg"
           alt="Ноутбук"
         />
         <h3>Технокряк</h3>
@@ -175,7 +181,7 @@ Weight
     
   <!--подвал-->
     <footer class="footer">
-      <a href="./portfolio.html"><span class="logoweb">Web</span><span class="logo-footer" >Studio</span></a>
+      <a href="./index.html"><span class="logoweb">Web</span><span class="logo-footer" >Studio</span></a>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
         <ul>
           <li>
