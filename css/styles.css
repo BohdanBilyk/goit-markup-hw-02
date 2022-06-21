@@ -89,6 +89,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.button:hover,
+.button:focus {
+  background-color: var(--color-accent);
+  color: var(--color-wite);
+}
+.button:active {
+  background-color:var(--color-wite);
+}
 .advantage {
   color: var(--color-text);
 }
